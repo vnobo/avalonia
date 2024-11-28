@@ -1,9 +1,9 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using AvaloniaApp.ViewModels;
+using AvaloniaCross.ViewModels;
 
-namespace AvaloniaApp;
+namespace AvaloniaCross;
 
 public class ViewLocator : IDataTemplate
 {
