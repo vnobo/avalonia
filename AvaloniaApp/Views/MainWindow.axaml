@@ -8,5 +8,5 @@
         x:Class="AvaloniaApp.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaApp">
-        <views:MainView />
+  <views:MainView></views:MainView>
 </Window>
