@@ -1,8 +1,14 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using ReactiveUI;
+using ReactiveUI.SourceGenerators;
 
 namespace AvaloniaCross.ViewModels;
 
 public partial class MainViewModel : ViewModelBase
 {
-    [ObservableProperty] private string _greeting = "Welcome to Avalonia!";
+    [ObservableAsProperty]
+    private string _userName = string.Empty;
+    
+    [ObservableAsProperty]
+    private string _greeting = "Welcome to Avalonia!";
 }
