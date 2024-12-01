@@ -1,6 +1,4 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using ReactiveUI;
-using ReactiveUI.SourceGenerators;
+﻿using ReactiveUI.SourceGenerators;
 
 namespace AvaloniaCross.ViewModels;
 
