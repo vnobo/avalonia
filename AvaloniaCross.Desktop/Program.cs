@@ -17,7 +17,7 @@ sealed class Program
     [RequiresDynamicCode("Calls Microsoft.Extensions.Hosting.Host.CreateApplicationBuilder()")]
     public static void Main(string[] args)
     {
-        var hostBuilder = Host.CreateApplicationBuilder();
+        var hostBuilder = Host.CreateApplicationBuilder(args);
         BuildAvaloniaApp()
             .StartWithClassicDesktopLifetime(args);
     }
